@@ -47,6 +47,7 @@ form {
 #writeble input {
     display: block;
     margin: 10px;
+    padding: 5px;
 }
 #dropdown {
     display: block;
