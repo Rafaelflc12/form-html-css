@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    display: block;
+    
+    width: 100vw;
+    height: 100vw;
+    margin: 10px;
+    overflow-x: hidden;
+    background-color: blanchedalmond;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 2.4rem;
+
+}
+p {
+    text-align: center;
+    font-size: 1em;
+}
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: blueviolet solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+    font-weight: lighter;
+    padding: 20px;
+    margin-top: 50px;
+    
+    
+}
+#writeble {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    justify-items: left;
+    flex-wrap: wrap;
+
+}
+#writeble input {
+    display: block;
+    margin: 10px;
+}
+#dropdown {
+    display: block;
+    text-align: center;
+    width: 60px;
+    height: 35px;
+    border: solid dimgrey  2px;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+#submit {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    color: maroon;
+    font-size: 400;
+    border: blueviolet solid 2px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+textarea {
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Build a survey form</h1>
+    <p id="description">Project to training css with this form build.</p>
+    <form action="" method="post" id="survey-form">
+        <select name="" id="dropdown">
+            <optgroup>
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </optgroup>
+        </select>
+
+
+        <div id="writeble">
+            <label for="name" id="name-label">
+                <input type="text" pattern="[a-zA-Z]+" name="name" id="name" required placeholder="your name">
+            </label>
+            <label for="e-mail" id="email-label">
+                <input type="e-mail" name="e-mail" id="email" placeholder="your e-mail">
+            </label>
+            <label for="numero" pattern="[0-9]+" id="number-label">
+                <input type="number" min="1" max="6" name="numero" id="number" placeholder="your numero">
+            </label>
+        </div>
+        <div>
+            <label for="rosa">
+                <input type="radio" name="cores" id="rosa">
+                <span>rosa</span>
+            </label>
+        <div>
+            <label for="verde">
+                <input type="radio" name="cores" id="verde">
+                <span>verde</span>
+            </label>
+        <div>
+            <label for="preto">
+                <input type="radio" name="cores" id="preto">
+                <span>preto</span>
+            </label>
+        </div>
+        <div>
+            <label for="rosa">
+                <input type="checkbox" value="tintas" id="rosa">
+                <span>tinta rosa</span>
+            </label>
+        <div>
+            <label for="verde">
+                <input type="checkbox" value="tintas" id="verde">
+                <span>tinta verde</span>
+            </label>
+        <div>
+            <label for="preto">
+                <input type="checkbox" value="tintas" id="preto">
+                <span>tinta preta</span>
+            </label>
+        </div>
+
+        <div >
+            <textarea placeholder="additional comment" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <button type="submit" id="submit">Submit</button>
+        </div>
+
+    </form>
+</body>
+</html>
